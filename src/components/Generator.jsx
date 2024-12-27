@@ -76,7 +76,7 @@ export default function Generator(props) {
 
 
   return (
-   <SectionWrapper header ={"Generate your workout"} title ={['It\'s','Game','time']}>
+   <SectionWrapper id={'generate'}header ={"Generate your workout"} title ={['It\'s','Game','time']}>
 
 
     {/* The section 01 */}
