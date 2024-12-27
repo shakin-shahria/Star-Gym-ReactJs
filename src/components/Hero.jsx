@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Button from './Button'
 export default function Hero() {
   return (
      <div className='min-h-screen flex flex-col gap-10 items-center justify-center text-center max-w-[800px] w-full mx-auto p-4'>
@@ -12,13 +12,13 @@ export default function Hero() {
         
         <p className='text-sm md:text-base font-light'>Push boundaries, track progress, and crush goals. Whether you're a beginner or a pro, this app has your back. Let’s build a <span className='text-blue-400 font-medium'>stronger, healthier</span> you!</p>
 
-        {/* <Button func={() => {
+        <Button func={() => {
                 window.location.href = '#generate'
-            }} text={"Accept & Begin"}></Button> */}
+            }} text={"Accept & Begin"}></Button>
 
 
-            <button className='px-8 py-4 rounded-md border-2px'
-            ><p>Accept & Begin</p></button>
+            {/* <button className='px-8 py-4 rounded-md border-2px'
+            ><p>Accept & Begin</p></button> */}
     </div>
   )
 }
